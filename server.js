@@ -30,10 +30,10 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-//GET wildcard route back to the homepage 
+//GET wildcard back to the homepage 
 app.get('*', (req, res) => res.redirect('/'));
 
-//application to listen for all GET requests. 
+//listen for GET request
 app.listen(PORT, () =>
   console.log(`Note taker application listening at http://localhost:${PORT}📝`)
 );
