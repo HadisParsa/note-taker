@@ -17,7 +17,8 @@ With this application user be able to write and save notes so that they can orga
 
 
 ## Link
- [Click here to access to The Note Taker with node](http://localhost:3001).
+ To access to The Note Taker with node: 
+ http://localhost:3001
 
 
 ## Mock-Up
